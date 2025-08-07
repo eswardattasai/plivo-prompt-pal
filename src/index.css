@@ -8,26 +8,42 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 245 50% 98%;
+    --foreground: 230 15% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 230 15% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 230 15% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 245 75% 60%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 245 30% 95%;
+    --secondary-foreground: 230 15% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 245 20% 96%;
+    --muted-foreground: 230 10% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 280 70% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Chat-specific colors */
+    --chat-user: 245 75% 60%;
+    --chat-user-foreground: 0 0% 100%;
+    --chat-bot: 0 0% 100%;
+    --chat-bot-foreground: 230 15% 15%;
+    --chat-input: 0 0% 100%;
+    --chat-border: 245 30% 90%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(245 75% 60%), hsl(280 70% 65%));
+    --gradient-bg: linear-gradient(180deg, hsl(245 50% 98%), hsl(245 30% 96%));
+    
+    /* Shadows */
+    --shadow-chat: 0 4px 20px hsl(245 30% 80% / 0.15);
+    --shadow-message: 0 2px 8px hsl(245 20% 70% / 0.1);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
